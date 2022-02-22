@@ -22,7 +22,7 @@ function complete() {
 // Show New Quote
 function newQuote() {
     loading();
-    // Pick A Roandom Quote From apiQuotes array
+    // Pick A Random Quote From apiQuotes array
     const quote = apiQuotes[Math.floor(Math.random() * apiQuotes.length)];
     // Check if author feild is blank and replace it with 'Unknown'
     if (!quote.author) {
